@@ -1,0 +1,16 @@
+#Paises#
+INSERT INTO `tpaises`(`ID`, `Pais`) VALUES ('1','México');
+INSERT INTO `tpaises`(`ID`, `Pais`) VALUES ('2','Estados Unidos');
+INSERT INTO `tpaises`(`ID`, `Pais`) VALUES ('3','Canada');
+
+#Estados#
+INSERT INTO `testados`(`ID`, `Estados`, `TPaises_ID`) VALUES ('1','CDMX','1');
+INSERT INTO `testados`(`ID`, `Estados`, `TPaises_ID`) VALUES ('2','Nayarit','1');
+INSERT INTO `testados`(`ID`, `Estados`, `TPaises_ID`) VALUES ('3','Jalisco','1');
+
+#Municipios#
+INSERT INTO `tmunicipios`(`ID`, `Municipio`, `TEstados_ID`) VALUES ('1','Puerto Vallarta','3');
+INSERT INTO `tmunicipios`(`ID`, `Municipio`, `TEstados_ID`) VALUES ('2','Guadalajara','3');
+INSERT INTO `tmunicipios`(`ID`, `Municipio`, `TEstados_ID`) VALUES ('3','Tomatlan','3');
+
+##
